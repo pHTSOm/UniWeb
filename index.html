@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" charset="UTF-8"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <nav class ="navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Blog Design</a>
+                <div class="navbar-nav" id="menu">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <li class="menu-item"><a href="#">home</a></li>
+                    <li class="menu-item">
+                        <a class="sub-btn" href="#">about<i class='fas fa-angle-down'></i></a>
+                        <ul class="sub-menu">
+                            <li class="sub-item"><a href="#">Menu01</a></li>
+                            <li class="sub-item"><a href="#">Menu02</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class="sub-btn" href="#">course<i class='fas fa-angle-down'></i></a>
+                        <ul class="sub-menu">
+                            <li class="sub-item"><a href="#">Menu03</a></li>
+                            <li class="sub-item"><a href="#">Menu04</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="#">blog</a></li>
+                    <li class="menu-item"><a href="#">contact</a></li>
+                    <li class="menu-item"><a href="#">instruction</a></li>                    
+                </div>      
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <div class="container">
+                <h1 class="banner-title">
+                    <span>Blog</span> Design
+                </h1>
+                <p>Learn how to use CSS and HTML</p>
+                <form>
+                    <input type="text" class="search-input" placeholder="find topic . . ."> 
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!--end of header-->
+
+    <!--Blog Post-->
+    
+    <section class = "blog" id = "blog">
+        <div class = "container">
+          <div class = "title">
+            <h2>Latest Blog</h2>
+            <p>recent blogs</p>
+          </div>
+          <div class = "blog-content">
+            <!-- item -->
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "image/basketball.png" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            <!-- end of item -->
+              <!-- item -->
+              <div class = "blog-item">
+                <div class = "blog-img">
+                  <img src = "image/london.png" alt = "">
+                  <span><i class = "far fa-heart"></i></span>
+                </div>
+                <div class = "blog-text">
+                  <span>20 January, 2020</span>
+                  <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                  <a href = "#">Read More</a>
+                </div>
+              </div>
+              <!-- end of item -->
+                <!-- item -->
+            <div class = "blog-item">
+                <div class = "blog-img">
+                  <img src = "image/banner2.jpg" alt = "">
+                  <span><i class = "far fa-heart"></i></span>
+                </div>
+                <div class = "blog-text">
+                  <span>20 January, 2020</span>
+                  <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                  <a href = "#">Read More</a>
+                </div>
+              </div>
+              <!-- end of item -->
+            <!-- item -->
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "image/library.png" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "image/newyork.png" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "blog-item">
+              <div class = "blog-img">
+                <img src = "image/cafeteria.png" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+              </div>
+              <div class = "blog-text">
+                <span>20 January, 2020</span>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero quas ipsum laudantium nihil! Quaerat.</p>
+                <a href = "#">Read More</a>
+              </div>
+            </div>
+            <!-- end of item -->
+        
+          </div>
+        </div>
+      </section>
+      <!-- end of blog -->
+  
+    <!--Sponsor-->
+      <ul class="sponsor">
+            <h2>Sponsors</h2>
+            <a href="#"><img src="image/sponsor1.png">amd</a>
+            <a href="#"><img src="image/sponsor2.png">intel</a>
+            <a href="#"><img src="image/sponsor3.png">nvidia</a>
+            <a href="#"><img src="image/sponsor4.png">asus</a>
+        
+      </ul>
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer_main">
+            <div class="tag">
+                <h1>Contact</h1>
+                <a href="#"> <i class="fa-solid fa-house"></i>123/HCM city/VietNam</a>
+                <a href="#"> <i class="fa-solid fa-phone"></i>+81 90 692 3451</a>
+                <a href="#"> <i class="fa-solid fa-envelope"></i>contact@gmail.com</a>
+            </div>
+            <div class="tag">
+                <h1>Follow Us</h1>
+                <div class="social_link">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="tag">
+                <h1>Newsletter</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="Your email id here">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+    <script type="text/javascript">
+        //jquery for toggle dropdown menus
+        $(document).ready(function(){
+            //toggle sub menus
+            $(".sub-btn").click(function(){
+                $(this).next(".sub-menu").slideToggle();
+            });
+        });
+
+
+        //javascript for toggle menu
+        var menu = document.getElementById("menu");
+        function showMenu(){
+            menu.style.right = "0";
+        }
+        function hideMenu(){
+            menu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
